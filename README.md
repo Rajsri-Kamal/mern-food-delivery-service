@@ -13,29 +13,30 @@ Stripe Account
 Set up a Stripe account to obtain your SECRET STRIPE KEY.
 
 🧩 Installation
+
 1️⃣ Frontend Setup
+
 Open a terminal in VS Code, navigate to the frontend folder, and run:
 
-bash
-Copy code
+(bash)
 npm install
 npm run dev
 ⚠️ Open the frontend first at: http://localhost:5173
 
 2️⃣ Admin Page Setup
+
 Open a terminal in VS Code, navigate to the admin folder, and run:
 
-bash
-Copy code
+(bash)
 npm install
 npm run dev
 ⚠️ Open the admin panel after the frontend at: http://localhost:5174
 
 3️⃣ Backend Setup
+
 Open a terminal in VS Code, navigate to the backend folder, and run:
 
-bash
-Copy code
+(bash)
 npm start server
 ⚠️ Important:
 

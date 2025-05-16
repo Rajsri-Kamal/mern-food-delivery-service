@@ -1,49 +1,30 @@
-Technology Stack
-Language: JavaScript | Node.js | Express | MongoDB | React | Stripe | HTML | CSS | REST API
+Tomato Delivery
+Language Language Language Language Language Language Language Language Language
 
 
-🚀 Getting Started
-To run the Tomato Delivery application successfully, ensure you have the following prerequisites in place:
+
+Getting Started
+First of all, you will need to create a database with Atlas MongoDB.
+Also have a Stripe account so you can get your SECRET STRIPE KEY.
 
 
-🛠 MongoDB Atlas
-Create a free MongoDB Atlas cluster to host your database.
+Installation
+How to install/setup the Front-End
+Open a terminal in VS Code and go into the frontend folder and then run
 
+❗Open the frontend first http://localhost:5173
 
-💳 Stripe Account
-Create a Stripe account to obtain your SECRET STRIPE KEY for payment processing.
-
-
-🧩 Installation
-Follow the steps below to install and run each part of the application:
-
-1️⃣ Frontend Setup
-Navigate to the frontend directory and run the following commands:
-
-
-bash
 npm install
 npm run dev
+How to install/setup the Admin Page
+Open a terminal in VS Code and go into the admin folder and then run
 
-⚠️ Make sure to start the frontend first at: http://localhost:5173
+❗Open the admin after the frontend. http://localhost:5174
 
-2️⃣ Admin Panel Setup
-Navigate to the admin directory and run:
-
-
-bash
 npm install
 npm run dev
+How to install/setup the Backend
+Open a terminal in VS Code and go into the backend folder and then run
 
-⚠️ Open the admin panel only after the frontend at: http://localhost:5174
-
-3️⃣ Backend Setup
-Navigate to the backend directory and start the server with:
-
-
-bash
 npm start server
-
-⚠️ Important Configuration Notes:
-Update your MongoDB URI in db.js
-Add your Stripe Secret Key in the .env file
+ Remember to include your Database in db.js and your Stripe Secret Key in .env

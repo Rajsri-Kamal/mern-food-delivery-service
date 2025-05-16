@@ -1,53 +1,43 @@
-# mern-food-delivery-service
-Tomato Delivery
+Technology Stack
 Language: JavaScript | Node.js | Express | MongoDB | React | Stripe | HTML | CSS | REST API
 
-
 🚀 Getting Started
-To get started with Tomato Delivery, you'll need a few things in place:
+To run the Tomato Delivery application successfully, ensure you have the following prerequisites in place:
 
-MongoDB Atlas Database
-Create a free MongoDB Atlas database.
+🛠 MongoDB Atlas
+Create a free MongoDB Atlas cluster to host your database.
 
-Stripe Account
-Set up a Stripe account to obtain your SECRET STRIPE KEY.
+
+💳 Stripe Account
+Create a Stripe account to obtain your SECRET STRIPE KEY for payment processing.
+
 
 🧩 Installation
+Follow the steps below to install and run each part of the application:
 
 1️⃣ Frontend Setup
+Navigate to the frontend directory and run the following commands:
 
-Open a terminal in VS Code, navigate to the frontend folder, and run:
-
-(bash)
-
+bash
 npm install
-
 npm run dev
+⚠️ Make sure to start the frontend first at: http://localhost:5173
 
-⚠️ Open the frontend first at: http://localhost:5173
+2️⃣ Admin Panel Setup
+Navigate to the admin directory and run:
 
-2️⃣ Admin Page Setup
-
-Open a terminal in VS Code, navigate to the admin folder, and run:
-
-(bash)
-
+bash
 npm install
-
 npm run dev
-
-⚠️ Open the admin panel after the frontend at: http://localhost:5174
+⚠️ Open the admin panel only after the frontend at: http://localhost:5174
 
 3️⃣ Backend Setup
+Navigate to the backend directory and start the server with:
 
-Open a terminal in VS Code, navigate to the backend folder, and run:
-
-(bash)
-
+bash
 npm start server
+⚠️ Important Configuration Notes:
 
-⚠️ Important:
-
-Add your MongoDB URI in db.js
+Update your MongoDB URI in db.js
 
 Add your Stripe Secret Key in the .env file

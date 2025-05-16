@@ -19,8 +19,11 @@ Set up a Stripe account to obtain your SECRET STRIPE KEY.
 Open a terminal in VS Code, navigate to the frontend folder, and run:
 
 (bash)
+
 npm install
+
 npm run dev
+
 ⚠️ Open the frontend first at: http://localhost:5173
 
 2️⃣ Admin Page Setup
@@ -28,8 +31,11 @@ npm run dev
 Open a terminal in VS Code, navigate to the admin folder, and run:
 
 (bash)
+
 npm install
+
 npm run dev
+
 ⚠️ Open the admin panel after the frontend at: http://localhost:5174
 
 3️⃣ Backend Setup
@@ -37,7 +43,9 @@ npm run dev
 Open a terminal in VS Code, navigate to the backend folder, and run:
 
 (bash)
+
 npm start server
+
 ⚠️ Important:
 
 Add your MongoDB URI in db.js
